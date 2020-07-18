@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div>
+          <span>(R) Vermelho:</span>
+          <input id="rangeRed" min="0" max="255" value="0" type="range" />
+          <input id="textRed" disabled readonly type="text" />
+        </div>
+
+        <div>
+          <span>(G) Verde:</span>
+          <input id="rangeGreen" min="0" max="255" value="0" type="range" />
+          <input id="textGreen" disabled readonly type="text" />
+        </div>
+
+        <div>
+          <span>(B) Azul:</span>
+          <input id="rangeBlue" min="0" max="255" value="0" type="range" />
+          <input id="textBlue" disabled readonly type="text" />
+        </div>
+      </div>
+      <div id="gridColor"></div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
