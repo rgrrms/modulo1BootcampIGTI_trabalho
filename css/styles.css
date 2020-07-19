@@ -4,11 +4,59 @@
   align-items: center;
 }
 
-.container div {
-  margin: 10px;
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: rgb(0, 150, 0);
+}
+
+.description {
+  font-size: 1.5em;
+}
+
+.colorInputs {
+  display: flex;
+  margin: 20px;
+}
+
+.colorInputs div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+}
+
+.text,
+.ranges,
+.names {
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+.names span {
+  padding-bottom: 0.4em;
+  width: 110px;
+}
+
+.ranges input,
+.text input {
+  margin-bottom: 0.5em;
+}
+
+.ranges input {
+  width: 300px;
+  cursor: pointer;
+}
+
+.text input {
+  width: 110px;
 }
 
 #gridColor {
-  width: 300px;
-  height: 300px;
+  width: 20em;
+  height: 20em;
+  border-radius: 25%;
+  border: 5px solid black;
 }

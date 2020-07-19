@@ -13,17 +13,13 @@ var gridColor = document.querySelector('#gridColor');
 
 function start() {
   changeColor();
-
   rangeRed.addEventListener('input', redRangeChangeValue);
-
   rangeGreen.addEventListener('input', greenRangeChangeValue);
-
   rangeBlue.addEventListener('input', blueRangeChangeValue);
 }
 
 function redRangeChangeValue(event) {
   redValue = event.target.value;
-
   inputRed.value = redValue;
 
   changeColor();
@@ -31,7 +27,6 @@ function redRangeChangeValue(event) {
 
 function greenRangeChangeValue(event) {
   greenValue = event.target.value;
-
   inputGreen.value = greenValue;
 
   changeColor();
@@ -39,7 +34,6 @@ function greenRangeChangeValue(event) {
 
 function blueRangeChangeValue(event) {
   blueValue = event.target.value;
-
   inputBlue.value = blueValue;
 
   changeColor();

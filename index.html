@@ -10,21 +10,28 @@
   <body>
     <div class="container">
       <div>
-        <div>
+        <h1 class="title">CORES RGB</h1>
+        <h2 class="description">
+          Combine os três ranges para escolher a cor desejada e ver o codigo
+          referente
+        </h2>
+      </div>
+      <div class="colorInputs">
+        <div class="names">
           <span>(R) Vermelho:</span>
-          <input id="rangeRed" min="0" max="255" value="0" type="range" />
-          <input id="textRed" disabled readonly type="text" />
-        </div>
-
-        <div>
           <span>(G) Verde:</span>
-          <input id="rangeGreen" min="0" max="255" value="0" type="range" />
-          <input id="textGreen" disabled readonly type="text" />
+          <span>(B) Azul:</span>
         </div>
 
-        <div>
-          <span>(B) Azul:</span>
+        <div class="ranges">
+          <input id="rangeRed" min="0" max="255" value="0" type="range" />
+          <input id="rangeGreen" min="0" max="255" value="0" type="range" />
           <input id="rangeBlue" min="0" max="255" value="0" type="range" />
+        </div>
+
+        <div class="text">
+          <input id="textRed" disabled readonly type="text" />
+          <input id="textGreen" disabled readonly type="text" />
           <input id="textBlue" disabled readonly type="text" />
         </div>
       </div>
